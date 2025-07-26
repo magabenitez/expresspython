@@ -1,8 +1,11 @@
 
 #Magali Benitez Vazquez 2025100422
-#Esto fue lo que yo hice en el examen, en casa queria ver si funcionaba
-# pero esto fue lo que hice en clase, el otro archivo era para ver mis 
-# estan sueltos porque en clase no pude hacer push, e hicimos copy paste
+'''
+Saludos, esto fue lo que yo hice en el examen, el otro archivo era
+para ver mis errores, los puse en esta carpeta ya que en clase hice
+copy paste por no poder hacer push y para que se viera mas
+ordenado
+'''
 
 
 from  flask import Blueprint, Flask, jsonify, request
