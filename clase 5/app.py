@@ -3,12 +3,13 @@
 
 from flask import Flask, jsonify, request
 from login import login
+from logout import logout 
 
 app = Flask(__name__)
 
 #Se expone login
 app.register_blueprint(login)
-
+app.register_blueprint(logout)
 @app.route('/', methods=['GET'])
 def unida():
     return 'Server flask is running on port 500'
